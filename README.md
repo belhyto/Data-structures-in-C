@@ -1,5 +1,5 @@
 ![](https://github.com/GDSC-AUM/Signway/blob/main/SignwayPreview/SignwayTitle.png)
-# About
+# About ✨
 Signway is an interactive app aimed to help users learn the basics of sign language.
 # UI 🍋
 ![Ui preview](https://github.com/GDSC-AUM/Signway/blob/main/SignwayPreview/Sign%20ui%20Screenshots%20git.png)
@@ -16,5 +16,7 @@ Signway is an interactive app aimed to help users learn the basics of sign langu
 # Install ⬇️
 Download Signway on your android device now!
 <https://drive.google.com/file/d/1f6AqjJYSQazJ3Ll74cW5U5-dKYQnArjf/view?usp=sharing>
-
+# Thank you
 ![logo](https://github.com/GDSC-AUM/Signway/blob/main/SignwayPreview/logo_banner.png)
+
+
