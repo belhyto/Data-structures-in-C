@@ -1,11 +1,12 @@
-<p align="center">
+
 # Signway
 Signway is an interactive app aimed to help users learn the basics of sign language.
-</p>
+
 
 # UI
 
 ![Ui preview](https://github.com/GDSC-AUM/Signway/blob/main/SignwayPreview/Signway%20ui%20git.png)
+![](https://github.com/GDSC-AUM/Signway/blob/main/SignwayPreview/logo%20git.png)
 
 # Tech Stack 
 - Minimum SDK level 21
