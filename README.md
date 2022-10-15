@@ -1,6 +1,7 @@
+<p align="center">
 # Signway
 Signway is an interactive app aimed to help users learn the basics of sign language.
- 
+</p>
 
 # UI
 
