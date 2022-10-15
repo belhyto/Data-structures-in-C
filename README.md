@@ -1,7 +1,8 @@
 ![](https://github.com/GDSC-AUM/Signway/blob/main/SignwayPreview/SignwayTitle.png)
+# About
 Signway is an interactive app aimed to help users learn the basics of sign language.
 # UI 🍋
-![Ui preview](https://github.com/GDSC-AUM/Signway/blob/main/SignwayPreview/Signway%20ui%20git.png)
+![Ui preview](https://github.com/GDSC-AUM/Signway/blob/main/SignwayPreview/Sign%20ui%20Screenshots%20git.png)
 # Tech Stack ⚙️
 - Minimum SDK level 21
 - 100% Kotlin based
