@@ -1,4 +1,4 @@
-//Delete element at end of array 
+//Delete element at beginning of array 
 #include <stdio.h>
 #define max 5
 int main()
