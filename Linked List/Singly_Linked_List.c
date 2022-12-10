@@ -42,7 +42,7 @@ void main()
             break;
             case 3:
             printf(" -Selected Insertion at end operation- \n");
-             printf("Enter the element to insert at the end:\n ");
+            printf("Enter the element to insert at the end:\n ");
             scanf("%d",&info);
             head=insertEnd(head, info);
             printf("\n");
@@ -104,6 +104,18 @@ struct node* insertEnd(struct node* head, int info)
 }
 struct node* insertPos(int pos, struct node *head, int data)
 {
+   /* int size = calcSize(*head);
+
+    //If pos is 0 then should use insertStart method
+    //If pos is less than 0 then can't enter at all
+    //If pos is greater than size then bufferbound issue
+    if(pos < 1 || size < pos) 
+    { 
+        printf("Can't insert, %d is not a valid position\n",pos); 
+    } 
+    else 
+    { 
+    */
        struct node *newnode, *temp; 
         newnode=(struct node*)malloc(sizeof(struct node)); 
          temp=head;
@@ -116,6 +128,8 @@ struct node* insertPos(int pos, struct node *head, int data)
         }
         newnode->next= temp->next;
         temp->next = newnode;
+       
+   // }
 }
 void deleteNode(struct node *head, int key)
 {
@@ -143,6 +157,7 @@ void display()
         printf("%d ",temp->data);
         temp =temp ->next;
     }
+    
 }
 void traverse()
 {
@@ -184,7 +199,7 @@ void traverse()
     }
     }
 
-//fix delete position return
-//add exit case
+
+
 
     
