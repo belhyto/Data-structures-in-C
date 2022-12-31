@@ -122,13 +122,13 @@ struct node* insertPos(int pos, struct node *head, int data)
         newnode->data = data;
         newnode->next = NULL;
 
-        while(--pos)
+        while(--pos) // refers to the previous node from next node
         {
             temp=temp->next;
         }
         newnode->next= temp->next;
         temp->next = newnode;
-       
+            return head;   
    // }
 }
 void deleteNode(struct node *head, int key)
@@ -156,8 +156,7 @@ void display()
     {
         printf("%d ",temp->data);
         temp =temp ->next;
-    }
-    
+    }    
 }
 void traverse()
 {
@@ -176,7 +175,6 @@ void traverse()
        }
        printf("\n No. of elements in linked list are: %d",count);
        }
-
  void create()                                                                                         
     { 
     int choice;
